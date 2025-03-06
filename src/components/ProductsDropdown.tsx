@@ -67,8 +67,8 @@ const ProductsDropdown: React.FC<ProductsDropdownProps> = ({products, from, show
                         {products.map((product, i) => (
                             <div className='' key={product.id}>
                                 <div key={product.id} className={`${i === 0 ? ' flex justify-between items-center hover:bg-gray-50 p-8' : 'hover:bg-gray-100 p-8 justify-start'}`}
-                                onMouseEnter={() => from === 'destop' && i === 0 && setShowWorkflowDetails(true)}
-                                onMouseLeave={() => from === 'destop' && i === 0 && setShowWorkflowDetails(false)}
+                                onMouseEnter={() => i === 0 && setShowWorkflowDetails(true)}
+                                onMouseLeave={() => i === 0 && setShowWorkflowDetails(false)}
                                 onClick={() => i === 0 && setShowMobileWorkflowDetails(!showMobileWorkflowDetails)}
                                 >
                                     <div>
@@ -82,7 +82,7 @@ const ProductsDropdown: React.FC<ProductsDropdownProps> = ({products, from, show
                         ))}
                     </div>
                     <div>
-                        {showWorkflowDetails && <WorkflowDropdown details={workflowDetails} from='destop' />}
+                        {showWorkflowDetails && <WorkflowDropdown details={workflowDetails} from='desktop' />}
                         {showMobileWorkflowDetails && <WorkflowDropdown details={workflowDetails} from='mobile' />}
                     </div>
                 </div>

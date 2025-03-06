@@ -4,7 +4,6 @@ import ProductsDropdown from './ProductsDropdown'
 import TemplatesDropdown from './TemplatesDropdown'
 import { Squash as Hamburger } from 'hamburger-react'
 import MobileNav from './MobileNav';
-import { div } from 'framer-motion/client'
 
 const Navbar = () => {
   const [showProducts, setShowProducts] = React.useState(false);
