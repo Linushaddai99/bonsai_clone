@@ -10,9 +10,9 @@ type PlansCardProps = {
 
 const PlansCard: React.FC<PlansCardProps> = ({ title, tag, price, features, isPopular }) => {
     return (
-      <div className="relative mb-10 lg:mb-0 w-full h-[850px] bg-white shadow rounded border border-[#dddd] text-[#4C4D5F] p-12">
+      <div className="relative mb-10 lg:mb-0 w-full h-[850px] bg-white rounded border border-[#dddd] text-[#4C4D5F] p-12" style={{boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px'}}>
         {isPopular && (
-          <div className="absolute top-0 right-0 bg-[#00b289] text-white text-xs font-bold py-1 px-3 rounded-bl-lg">
+          <div className="absolute top-5 -right-13 bg-[#00b289] text-white text-lg font-bold py-1 px-8" style={{transform: 'rotate(45deg)'}}>
             MOST POPULAR
           </div>
         )}
