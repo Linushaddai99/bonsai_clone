@@ -122,7 +122,7 @@ const PricingPlan = () => {
                 </div>
             </div>
 
-            <div className='my-30 bg-[#f2faff] round-lg p-15 lg:w-[70%] w-[100%] mx-auto flex items-center justify-between'>
+            <div className='my-30 bg-[#f2faff] round-lg p-15 lg:w-[90%] w-[100%] mx-auto flex items-center justify-between'>
                 <h2 className='lg:text-4xl text-2xl font-stretch-70%'>It’s <span className='text-[#00b289] mb-5 inline-block'>your</span> business.<br></br>
                 We’re here to help it grow.</h2>
                 <button className='bg-[#00b289] text-white rounded p-3 text-sm'>START FREE</button>

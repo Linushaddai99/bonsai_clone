@@ -26,7 +26,7 @@ const PlansCard: React.FC<PlansCardProps> = ({ title, tag, price, features, isPo
         <div className="space-y-4 text-[#4C4D5F]">
           {features.map((feature, index) => (
             <div className='flex items-center justify-items-start' key={index}>
-                <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke="#00b289" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke="#00b289" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
                 <p className='ml-2'>{feature}</p>
             </div>
           ))}
