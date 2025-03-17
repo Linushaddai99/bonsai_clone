@@ -147,7 +147,7 @@ const toggleTemplate = (id: number) => {
 
 
   return (
-    <div className='flex justify-between'>
+    <div className='lg:flex justify-between'>
       <div>
         <h1 className='font-bold text-lg mb-5'>PRODUCTS</h1>
         <ul>

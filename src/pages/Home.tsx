@@ -59,7 +59,7 @@ const Home = () => {
         <PricingPlan />
        
         <div className="mt-[3300px] lg:mt-[1600px] w-[90%] lg:w-[80%] mx-auto mb-10 text-[#4C4D5F]">
-          <div className="mb-30 w-[100%] lg:w-[70%] mx-auto">
+          <div className="mb-30 w-[90%] lg:w-[70%] mx-auto">
             <h1 className="text-3xl text-[#00b289] font-bold text-center mt-10 mb-10">Frequently Asked Questions</h1>
             <div>
               {
